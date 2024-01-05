@@ -1,5 +1,7 @@
 Medium Article: https://medium.com/@danial.shabbir77/a-complete-data-engineering-workflow-data-modelling-and-advanced-analytics-using-python-duckdb-af1f63d1f4b8
+
 Reach out to me via linkedin: https://www.linkedin.com/in/data-engineer-d/
+
 Reach out to me via gmail: danial.shabbir77@gmail.com
 
 ## Understanding NYC Taxi Trip Data
