@@ -1616,7 +1616,7 @@ What good a data model is when we can't apply analytics to it. I have prepared s
 ### Basic Statistics:
 - What is the average trip distance?
 - What is the most common payment type?
-- Average trip distance for trips with a tip_amount greater than $10, excluding trips with a payment type of 'Cash'.
+- Average trip distance for trips with a tip_amount greater than $10, excluding trips with a payment type of other than 'Cash'.
 
 ### Vendor Comparison:
 - How many trips were made by each VendorID?
@@ -1695,7 +1695,7 @@ run(q)
 
 
 
-# - Average trip distance for trips with a tip_amount greater than $10, excluding trips with a payment type of 'Cash'.
+# - Average trip distance for trips with a tip_amount greater than $10, excluding trips with a payment type of other than 'Cash'.
 q = """
     WITH TRIP_DISTANCE_BASE AS (
         SELECT round(avg(trip_distance_dim.trip_distance)) as 'average_trip_distance(miles)'
